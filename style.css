@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: violet;
+    flex-direction: column;
+}
+
+button{
+    width: 50px;
+    border-radius: 20px;
+    height: 25px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    text-transform: none;
+}
+
+.resetColor {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.black{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: none;
+}
+.black:hover{
+    background-color: rgb(42, 42, 42);
+}
+.red{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    border: none;
+}
+.red:hover{
+    background-color: rgb(190, 53, 53);
+}
+.blue{
+    color:rgb(255, 255, 255);
+    background-color: blue;
+    border: none;
+}
+.blue:hover{
+    background-color: rgb(17, 17, 146);
+}
+.btn{
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(85, 5, 116);
+    width: 100%;
+}
+
+.imagens{
+    height: 450px;
+    width: 550px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    flex-direction: column;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+.img{
+    border-radius: 5px;
+    width: 550px;
+    height: 450px;
+    margin: 0px;
+}
